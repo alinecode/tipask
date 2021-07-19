@@ -204,11 +204,11 @@ $(function(){
     });
 
 
-    /*通知异步加载*/
-    $("#unread_notifications").load("/ajax/unreadNotifications");
+    /*通知异步加载 注释掉不加载*/
+   // $("#unread_notifications").load("/ajax/unreadNotifications");
 
-    /*异步加载私信*/
-    $("#unread_messages").load("/ajax/unreadMessages");
+    /*异步加载私信 注释掉不加载*/
+   // $("#unread_messages").load("/ajax/unreadMessages");
 
 
     /*标签自动选择*/
